@@ -1,0 +1,16 @@
+{
+  "incognito": true,
+  "puppeteer.connect": {
+    "ignoreHTTPSErrors": true,
+    "browserWSEndpoint": null
+  },
+  "puppeteer.launch": {
+    "headless": true,
+    "devtools": false,
+    "slowMo": 30,
+    "ignoreHTTPSErrors": false,
+    "args": [
+      ""
+    ]
+  }
+}
